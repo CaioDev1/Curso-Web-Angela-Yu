@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+.apresentation {
+    position: relative;
+    font-family: 'Righteous', cursive;
+    color: #66BFBF;
+    background-color: #EAF6F6;
+    margin-bottom: 50px;
+}
+.apresentation h1 {
+    margin: 0px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Righteous', cursive;
+    line-height: 2;
+}
+.apresentation h3 {
+    font-weight: normal;
+    font-size: 35px;
+}
+span {
+    text-decoration: underline;
+}
+.apresentation .cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.apresentation-mountain {
+    position: relative;
+}
+.apresentation-mountain .cloud {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+.apresentation h1 {
+    padding-top: 100px;
+}
+.middle-container h3, a, h2 {
+    color: #11999E;
+}
+.skills h2 {
+    font-size: 40px;
+}
+.profile {
+    width: 35%;
+    margin: auto;
+    color: rgb(46, 58, 56);
+}
+.profile h2 {
+    font-size: 40px;
+
+}
+p {
+    line-height: 2;
+}
+hr {
+    width: 5%;
+    border: dotted rgb(199, 209, 209) 8px;
+    border-bottom: none;
+    margin: 130px auto;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.computer {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chillie {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-me {
+    width: 35%;
+    margin: auto auto 100px auto;
+}
+.contact-me h2 {
+    font-size: 40px;
+}
+.contact-me * {
+    margin: 50px auto;
+}
+.btn {
+	box-shadow: 0px 1px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #45e6a5 5%, #1872ad 100%);
+	background-color:#45e6a5;
+	border-radius:8px;
+	border:1px solid #c3f0c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #212b20;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #1872ad 5%, #45e6a5 100%);
+	background-color:#1872ad;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container {
+    background-color:#66BFBF;
+    padding-top: 50px;
+}
+.bottom-container * {
+    padding: 20px;
+}
+.bottom-container a {
+    color: #11999E;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bottom-container a:hover {
+    color: white;
+}
+.bottom-container p {
+    color: #EAF6F6;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+    margin-bottom: 0;
+}
+

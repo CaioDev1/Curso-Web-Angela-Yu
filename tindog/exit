@@ -1,0 +1,131 @@
+* [33mcommit 5f2a51a6cb4664ed3fe5e326bcdee25fcb94774d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sat Apr 4 23:15:19 2020 -0300
+[31m|[m 
+[31m|[m     corrigidos definitivo
+[31m|[m 
+* [33mcommit 6206c017aa9d9533ebb42baab5cf66aacc2daec3[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sat Apr 4 23:13:03 2020 -0300
+[31m|[m 
+[31m|[m     titulo corrigido para bold
+[31m|[m 
+* [33mcommit 84c385612dd57b1a386ed851ad1570adedcd2829[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sat Apr 4 23:06:18 2020 -0300
+[31m|[m 
+[31m|[m     correção titulos fonte
+[31m|[m 
+* [33mcommit 49f11cfdfd7e2cfc2b7df4febe89c57c6d55d188[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Tue Mar 31 18:40:23 2020 -0300
+[31m|[m 
+[31m|[m     min-width body adicionado
+[31m|[m 
+* [33mcommit 2d825032264d7d211b5475a36249c585d20a31ff[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 20:36:39 2020 -0300
+[31m|[m 
+[31m|[m     finalização css 4
+[31m|[m 
+* [33mcommit 46fc660a59887795531f1fa83004d6431f9ddde7[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 20:33:15 2020 -0300
+[31m|[m 
+[31m|[m     finalização interface css 3
+[31m|[m 
+* [33mcommit f97d6046d5b966bfe79816009efb9125268534da[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 20:11:03 2020 -0300
+[31m|[m 
+[31m|[m     finaliações interface mobile 2
+[31m|[m 
+* [33mcommit c14497181fb2565be171787b9ef99cfe408b306b[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 20:07:09 2020 -0300
+[31m|[m 
+[31m|[m     finalizações interface mobile
+[31m|[m 
+* [33mcommit d6e2bb8da6e5f9f83fc64fcef20e4426bb59f3f6[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 19:28:24 2020 -0300
+[31m|[m 
+[31m|[m     botão consertado 3
+[31m|[m 
+* [33mcommit 9ebf061b67b93b509533da9d2f3c379408b51b4b[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 19:14:07 2020 -0300
+[31m|[m 
+[31m|[m     botão consertado 2
+[31m|[m 
+* [33mcommit e1b4854a638acc35abb37b33d5add51226121cd7[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 19:09:58 2020 -0300
+[31m|[m 
+[31m|[m     botão menu consertado
+[31m|[m 
+* [33mcommit 209ca02cbddc65f42f53be622be698d2e6f1500f[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 01:56:01 2020 -0300
+[31m|[m 
+[31m|[m     com <meta viewport>
+[31m|[m 
+* [33mcommit fe340c4b02d3bb54fa6eb160098603b6e088b796[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 01:37:52 2020 -0300
+[31m|[m 
+[31m|[m     versão com barra de pesquisa css
+[31m|[m 
+* [33mcommit 42da1338c46f90c0619af2a052c8730b53676277[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sun Mar 29 01:37:02 2020 -0300
+[31m|[m 
+[31m|[m     versão com barra de pesquisa
+[31m|[m 
+* [33mcommit 6d7e5074c88f402fc2024ed43f8d629d39f09999[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sat Mar 28 20:31:36 2020 -0300
+[31m|[m 
+[31m|[m     favicon adicionado
+[31m|[m 
+* [33mcommit 5b6f046198b21e6d66b2a09322ad5d0f38dc36bd[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sat Mar 28 19:29:08 2020 -0300
+[31m|[m 
+[31m|[m     responsivo css
+[31m|[m 
+* [33mcommit 52a6320bbd887a578f1798f36f021badd69d4f4d[m
+[31m|[m Author: CaiozitoDev <62160853+CaiozitoDev@users.noreply.github.com>
+[31m|[m Date:   Sat Mar 28 18:37:33 2020 -0300
+[31m|[m 
+[31m|[m     Delete TechCrunch.png
+[31m|[m 
+* [33mcommit 108e502753c9462565cb7e1532b78a9c018e680e[m
+[31m|[m Author: CaiozitoDev <62160853+CaiozitoDev@users.noreply.github.com>
+[31m|[m Date:   Sat Mar 28 18:37:07 2020 -0300
+[31m|[m 
+[31m|[m     Add files via upload
+[31m|[m 
+* [33mcommit 05d6bae7dce49825d47256947de5db218fa747af[m
+[31m|[m Author: Caio Felipe <imcaiofelipe@gmail.com>
+[31m|[m Date:   Sat Mar 28 17:35:07 2020 -0300
+[31m|[m 
+[31m|[m     primeiro-envio
+[31m|[m 
+* [33mcommit 12f0edf2a375d67e83c53935563ed8574e8ac92b[m
+[31m|[m Author: CaiozitoDev <62160853+CaiozitoDev@users.noreply.github.com>
+[31m|[m Date:   Mon Mar 23 21:39:38 2020 -0300
+[31m|[m 
+[31m|[m     Add files via upload
+[31m|[m 
+* [33mcommit f619ffb364e8cc33c16a32ef1b1dd08a472e83dd[m
+[31m|[m Author: CaiozitoDev <62160853+CaiozitoDev@users.noreply.github.com>
+[31m|[m Date:   Mon Mar 23 21:11:36 2020 -0300
+[31m|[m 
+[31m|[m     Add files via upload
+[31m|[m 
+* [33mcommit 78a0cbe96e112e721f4ad88ca97c35bd54e155f2[m
+  Author: CaiozitoDev <62160853+CaiozitoDev@users.noreply.github.com>
+  Date:   Mon Mar 23 21:09:23 2020 -0300
+  
+      Initial commit

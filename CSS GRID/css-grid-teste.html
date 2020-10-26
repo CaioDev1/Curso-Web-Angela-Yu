@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste grid CSS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <style>
+        .box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-areas:
+            'a b c e'
+            'a d f f'
+        ;
+        height: 500px;
+        width: 100%;
+        
+        
+        
+        justify-content: center;
+        }
+        .box-item {
+        border-radius: 5px;
+        text-align: center;
+        word-wrap: break-word;
+        
+        }
+        .a {
+        grid-area: a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        background-color: red;
+        }
+
+        .b {
+        grid-area: b;
+        background-color: blue;
+        }
+
+        .c {
+        grid-area: c;
+        background-color: orange;
+        }
+
+        .d {
+        grid-area: d;
+        background-color: purple;
+        }
+
+        .e {
+        grid-area: e;
+        background-color: green;
+        }
+
+        .f {
+        grid-area: f;
+        background-color: pink;
+        }
+
+        @media (max-width: 1000px) {
+            .box-container {
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: 1fr 1fr 1fr;
+               
+            }
+            .a {
+                grid-column: 1/4;
+                grid-row: 1/4;
+                padding: 10px;
+            }
+            .b {
+              grid-column: 10/13;  
+            }
+            .c {
+                grid-column: 4/10;
+                grid-row: 1/3;
+            }
+            .d {
+                grid-column: 6/13;
+                grid-row: 3
+            }
+            .e {
+                grid-column: 10/13;
+                grid-row: 2;
+            }
+            .f {
+                grid-column: 4/6;
+                grid-row: 3;
+            }
+        }
+
+    </style>
+
+
+    <style>
+        .caixa {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 50px 200px 40px;
+            gap: 10px;
+
+            width: 100%;
+            height: 500px;
+
+            margin-top: 50px;
+
+            justify-content: center;
+        }
+        .caixa-item {
+            border-radius: 5px;
+        }
+        .z {
+            grid-column: span 12;
+            background-color: blue;
+        }
+        .x {
+            grid-column: span 4;
+            background-color: yellow;
+        }
+        .q {
+            grid-column: span 8;
+            background-color: red;
+        }
+        .v {
+            grid-column: span 12;
+            background-color: green;
+        }
+        @media (max-width: 1000px) {
+            .z {
+                grid-column: span 6;
+            }
+            .x {
+                grid-row: 1;
+                grid-column: span 6;
+            }
+            .q {
+                grid-column: span 12;
+            }
+            .caixa {
+                grid-column: span 12;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box-container">
+        <div class="box-item a">
+          A
+          <h1>Teste</h1>
+          <button class="btn btn-primary">afsdfasdfas</button>
+        </div>
+        <div class="box-item b">
+          B
+        </div>
+        <div class="box-item c">
+          C
+        </div>
+        <div class="box-item d">
+          D
+        </div>
+        <div class="box-item e">
+          E
+        </div>
+        <div class="box-item f">
+          F
+        </div>
+      </div>
+
+      <div class="caixa">
+          <div class="caixa-item z">
+              X
+          </div>
+          <div class="caixa-item x">
+              C
+          </div>
+          <div class="caixa-item q">
+              Q
+          </div>
+          <div class="caixa-item v">
+              V
+          </div>
+      </div>
+</body>
+</html>

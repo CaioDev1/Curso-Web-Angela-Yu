@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %>
+
+<div class="box" id="heading">
+    <h1> <%= listTitle %> </h1>
+</div>
+<div class="box">
+    <% for(items in listContent) { %>
+    <form action="/delete" method="POST">
+        <div class="item">
+            <input type="checkbox" name="checkbox" value="<%= listContent[items]._id %>" onchange="this.form.submit()" >
+            <p> <%= listContent[items].content %></p>
+        </div>
+        <input type="hidden" name="title" value="<%= listTitle %>">
+    </form>
+    <% } %>
+    <form action="/" method="POST" class="item">
+        <input type="text" name="text" id="" placeholder="Type here" autocomplete="off" required>
+        <button type="submit" name="button" value="<%= listTitle %>">+</button>
+    </form>
+</div>
+
+<%- include('partials/footer.ejs') %>

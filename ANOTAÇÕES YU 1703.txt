@@ -1,0 +1,85 @@
+<ul> or <ol> type="tipo de marcação - romanos, letras, números etc.""
+
+
+FAZER COM QUE A IMAGEM VIRA UM LINK
+<a>
+        <img src="fasdfasdf">
+</a>
+
+
+TABLES
+
+ORGANIZA A FORMA COMO OS TITULOS E OS ELEMENTOS DA TABELA SÃO ORGANIZADOS
+
+<table>
+       <thead>
+             <th>  </th>
+       </thead>
+
+       <tbody>
+            <tr>  </tr>
+       </tbody>
+
+
+       <tfooter>
+           fsdafas
+       </tfooter>
+
+</table>
+
+
+
+<select onchange="function(this)'> 
+
+
+CSS
+
+PREFERENCIA DE COMANDOS
+
+1 - na linha da tag
+
+<div style="width:23px;">
+
+2 - interno do arquivo
+
+<style> ........ </style>
+
+3 - externo
+
+<link rel="stylesheet" href="style.css">
+
+
+CLASSES & ID'S
+
+id = serve somente pra 1 elemento só
+
+class = pode ser colocado em mais de um
+
+
+FAVICONS - ICONE DO SITE
+
+<link rel="icon" href="sdfafasd.ico">
+
+
+
+CSS DISPLAY
+
+display: block = deixa a caixa de conteúdo com dimensões editáveis (L.A) porém deixa todo seu espaço horizontal ocupado na página (tipo um margin horizontal infinito)
+
+display: inline = cria uma caixa adaptada exatamente ao tamanho do conteúdo e deixa outras caixas na mesma linha, porém não pode ser editado dimensões
+
+display: inline-block = melhor dos dois mundos, editável e permite outros conteúdos na mesma linha
+
+
+display: none = não aparece no site e suas dimensões e tamanhos não influenciam nos outros, sendo totalmente ignorada
+
+visibility: hidden = deixa invisível a caixa, porém  suas dimensões ainda são perceptíveis em relação aos outros
+
+
+
+CSS POSITION
+
+
+position: static = mantém no mesmo lugar, padrão do CSS
+
+position: relative = pode se mover pelas coordenadas: left, bottom, top etc. porém flutuando por cima das outras caixas, invés de dividir o espaço, movimenta-se limitada a caixa que a pertence.
